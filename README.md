@@ -142,6 +142,6 @@ Note: Replace actual values with relevant data from your timetable.
 
 
 8. Author
-This script was created by [Your Name]. For any questions or support, please contact bilal.aleem2406@gmail.com or 03333332460
+This script was created by Bilal Aleem. For any questions or support, please contact bilal.aleem2406@gmail.com or 03333332460
 
 
