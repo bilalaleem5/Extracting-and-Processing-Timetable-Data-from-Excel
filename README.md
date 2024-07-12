@@ -20,51 +20,6 @@ openpyxl library
 
 A terminal or command-line interface
 
-4. Installation
-
-Install Required Libraries:
-
-Ensure you have Pandas and openpyxl installed. You can install them using pip:
-
-bash
-
-Copy code
-
-pip install pandas openpyxl
-
-Clone the Repository: Clone this repository to your local machine using:
-
-
-
-bash
-
-
-Copy code
-git clone <repository_url>
-
-Navigate to the Directory:
-
-
-
-
-bash
-
-Copy code
-
-cd <repository_directory>
-Run the Script:
-
-
-
-bash
-
-Copy code
-
-python extract_timetable.py
-
-Replace <repository_url> and <repository_directory> with the actual URL and directory name.
-
-
 
 5. Usage
 Prepare the Excel File: Ensure your Excel file TimeTable.xlsx is in the same directory as your script.
@@ -77,11 +32,7 @@ Run the Script: Execute the script to extract and print the timetable data.
 
 6. Code Overview
 
-Import Libraries
 
-python
-
-Copy code
 import pandas as pd
 
 Import Pandas for data manipulation and openpyxl for reading Excel files.
@@ -92,31 +43,23 @@ Load the Excel File
 
 python
 
-Copy code
 file = pd.ExcelFile("TimeTable.xlsx", engine='openpyxl')
 
 Load the Excel file using Pandas.
 
 Extract Data from Each Sheet
 
-python
+
 
 
 
 Create Final DataFrame
-
-python
-Copy code
 
 final_df = pd.DataFrame(all_data_dicts)
 
 Combine all extracted data into a single DataFrame.
 
 Print the Resulting DataFrame
-
-python
-
-Copy code
 
 print(final_df)
 
